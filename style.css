@@ -1,1 +1,210 @@
-/* Add your CSS here */
+/********************************
+Header
+*********************************/
+#header{
+    background-color: #fffabe;
+    height: 10vh;
+}
+
+#logo{
+    position: relative;
+    height: 4vh;
+    width: 11vw;
+    margin-top: 18%;
+}
+nav {
+    position:relative;
+    display: inline-block;
+}
+.nav ul {
+    position: relative;
+    list-style-type: none;
+
+}
+.nav li {
+    position:relative;
+    display:inline-block;
+    margin-left: 7%;
+}
+.nav li a {
+    font-family: Arial, Helvetica sans-serif;
+    font-size: 2vh;
+    color:#515151;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color:#d42551;
+}
+/********************************
+Welcome Page
+*********************************/
+
+/********************************
+Section
+*********************************/
+#welcomePic{
+    background:url('./assets/images/welcome-image.png');
+    background-size: cover;
+    height:47vh;
+}
+/********************************
+Main Content
+*********************************/
+#sideMac{
+    background:url('./assets/images/macarons-image.png');
+    background-repeat:no-repeat;
+    background-position-y:center;
+    height:70vh;
+}
+.welcomeMain{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6a6969;
+}
+.welcomeMain h4{
+    margin:5vh 0;
+}
+/********************************
+Article
+*********************************/
+article{
+    height: 16vh;
+}
+.column {
+    height: 100%;
+    width: 7vw;
+    position: relative;
+    display: inline-block;
+    margin:1%;
+}
+.column li{
+    background-color:#fffabe;
+    list-style-type: none;
+    color:#6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5vh;
+    width:7vw;
+    height: 25%;
+    padding:8% 2%;
+}
+.column li img{
+    height: 2vh;
+}
+.cookie{
+    float:right
+}
+#coconut  {
+    background-color:#824603;
+    color:white;
+
+}
+#vanilla {
+    background-color:#df5277;
+    color:white;
+}
+#lemon {
+    background-color:#a2304e;
+    color:white;
+}
+#almond {
+    background-color: #c39005;
+    color: white;
+}
+
+/********************************
+Our Macarons Page
+*********************************/
+
+/********************************
+Section
+*********************************/
+#macaronPic{
+    background:url('./assets/images/our-macarons-image.png');
+    background-size: cover;
+    height:47vh;
+}
+
+/********************************
+Main Content
+*********************************/
+#macMain{
+    background-image: url("./assets/images/our-macarons-background.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    color:#6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#infoMac{
+    margin-top:8%;;
+}
+/********************************
+Gifts Page
+*********************************/
+
+/********************************
+Section
+*********************************/
+#giftPic{
+    background:url('./assets/images/gifts-parties-image.png');
+    background-size: cover;
+    height:47vh;
+}
+/********************************
+Main Content
+*********************************/
+#giftMain{
+    background: url("./assets/images/gifts-parties-background.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    color:#6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#giftMain h4{
+    margin:5vh 0;
+}
+/********************************
+Contact Page
+*********************************/
+
+/********************************
+Section
+*********************************/
+#contactPic{
+    background:url('./assets/images/contact-image.png');
+    background-size: cover;
+    height:47vh;
+    color:#6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/********************************
+Main Content
+*********************************/
+#contactMain{
+    height:47vh;
+    color:#6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:10vh;
+}
+#sideContact{
+    background:url('./assets/images/macarons-image.png');
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-size: contain;
+    height:70vh;
+}
+#contactMain h4{
+    margin:5vh 0;
+}
+/********************************
+Footer
+*********************************/
+footer{
+    height: 10vh;
+    background-color: #df5277;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 8%;
+    padding: 2%;
+    font-size: 84%;
+}
