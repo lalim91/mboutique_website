@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Mboutique</title>
 
+    <!--JQuery Library-->
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
     <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <!--Style Sheets-->
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+
+    <!--JS Scripts-->
+    <script src="script.js"></script>
 </head>
 <body class="col-sm-offset-2 col-sm-8">
 
-    <div id="header" class="col-sm-12">
-        <div class="col-sm-2">
-            <img id="logo" src="./assets/images/logo.png" alt="logo">
+    <nav class="navbar col-sm-12" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigate">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="col-xs-9 navbar-brand" href="#"><img id="logo" src="./assets/images/logo.png" alt="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navigate">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="our_macarons.html">Our Macarons</a></li>
+                    <li><a href="gifts.html">Gifts & Parties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col-sm-10">
-            <ul class="nav">
-                <li><a href="index.html">Welcome</a></li>
-                <li><a href="our_macarons.html">Our Macarons</a></li>
-                <li><a href="gifts.html">Gifts & Parties</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
+    </nav>
 
     <section id="welcomePic" class="col-sm-12"></section>
 
