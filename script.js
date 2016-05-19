@@ -25,7 +25,7 @@ app.config(function($routeProvider){
 });
 
 app.controller('mainController', function($scope){
-   $scope.banner = "aassets/images/welcome-imagae.png";
+   $scope.banner = "assets/images/welcome-imagae.png";
 }).controller('macaronsController', function($scope){
     $scope.banner = "assets/images/our-macarons-image.png";
 }).controller('giftsController', function($scope){
